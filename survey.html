@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <h1 id="survey"> Survey </h1>
+    <h4>this a simple survey form</h4>
+  </head>
+  <body>
+   <form>
+   <div id="name">
+       <label>name:</label>  <input type="text" name="" placeholder="names"><div id="name-label">
+   </div>
+   <br>
+   <div id="email">
+      <label>email:</label>  <input type="text" name="Email" placeholder="email address" required><div id="email-label">
+   </div>
+<br>
+   <div id="number">
+     <label>number</label> <input type="text" name="number" placeholder="number" pattern="[0-9]{10}"><div id="number">
+<br>
+       <div id="drop down">
+              <label for="options">Options : </label>
+              <input list = "options" />
+              <datalist id="options">
+               <option value="option1">
+               <option value="option2">
+               <option value="option3">
+               <option value="option3">
+              </datalist>
+            </div>
+            <br>
+            <label for="field">Field 1 :</label><input type="radio" name="field" value="field1" id="field1">
+            <label for="field">Field 2 :</label><input type="radio" name="field" value="field1" id="field2">
+            <label for="field">Field 3 :</label><input type="radio" name="field" value="field1" id="field3">
+            <label for="field">Field 4 :</label><input type="radio" name="field" value="field1" id="field4">
+            <br>
+            <br>
+            <label for="checkbox">checkbox :</label><input type="radio" name="checkbox" value="checkbox" id="checkbox">
+            <label for="checkbox">checkbox 2 :</label><input type="radio" name="field" value="checkbox2" id="checkbox2">
+            <label for="checkbox">checkbox 3 :</label><input type="radio" name="field" value="checkbox3" id="checkbox3">
+            <label for="checkbox"> checkbox4 :</label><input type="radio" name="field" value="checkbox4" id="checkbox4">
+            <br>
+            <br>
+            <br>
+        <div>
+          <h3>Additional Comments</h3>
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </div>
+        <p>
+        <h3>Submit</h3>
+      <div>
+      <input type="reset" value="Reset">     <input type="submit" value="Submit form">
+      </div>
+
+
+
+   </div>
+   </form>
+  </body>
+</html>
